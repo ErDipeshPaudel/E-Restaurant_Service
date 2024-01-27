@@ -1,4 +1,4 @@
-Project is fetching food data from API using React Vite and Redux toolkit  and has various features like Cart, Menu, Order, User, Placing new order and looking up an order
+Project is fetching food data from API using React Vite and Redux toolkit  and has various features like Cart, Menu, Order, User, Placing new order and looking up an order...
 
 Project is made with # React + Vite
 Project will be live soon I will attach the link of live project here.

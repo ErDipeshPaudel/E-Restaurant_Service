@@ -8,9 +8,8 @@ import {
   formatDate,
 } from "../../utils/helpers";
 
-
 function Order() {
-  const order = useLoaderData()
+  const order = useLoaderData();
   // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
   const {
     // id,
@@ -21,8 +20,6 @@ function Order() {
     estimatedDelivery,
     // cart,
   } = order;
-
-
 
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
 
@@ -55,9 +52,9 @@ function Order() {
   );
 }
 
-export async function loader({params}){
-  const order = await getOrder(params.orderId)
-  return order 
+export async function loader({ params }) {
+  const order = await getOrder(params.orderId);
+  return order;
 }
 
 export default Order;

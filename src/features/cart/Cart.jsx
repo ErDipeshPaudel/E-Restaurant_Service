@@ -29,7 +29,6 @@ const fakeCart = [
 
 function Cart() {
   const cart = fakeCart;
-  cart;
 
   return (
     <div className="px-4 py-3">
